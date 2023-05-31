@@ -17,6 +17,11 @@ class humanbeing {
     public void setName(String n) {
         name = n;
     }
+    public void display1()
+    {
+           System.out.println("Display1....");
+    }
+    
 }
 
 public class Human {
@@ -25,6 +30,7 @@ public class Human {
         h.setAge(10);
         h.setName("Samitha Kotian");
         System.out.println("Age:" + h.getAge() + "\nName:" + h.getName());
+        h.display1();
 
     }
 
